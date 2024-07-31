@@ -1,7 +1,7 @@
 <h1 align="center">🎮 Mini-game: Palavra Secreta 🕹️</h1>
 
 <div align="center">
-    <img width="800px" title="Imagem do mini-game" src="SecretWord/public/ProjetoPalavraSecreta.png"/>
+    <img width="800px" title="Imagem do mini-game" src="public/ProjetoPalavraSecreta.png"/>
 <div>
 <div align="start" style="font-size:18px;">
 
