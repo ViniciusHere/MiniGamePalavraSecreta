@@ -1,0 +1,12 @@
+:root {
+    --text-color: (#D6BD98);
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

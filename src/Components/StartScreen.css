@@ -1,0 +1,30 @@
+.start {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A3636;
+}
+
+.start h1 {
+    font-size: 3.8em;
+    margin: 0;
+    color: #D6BD98;
+}
+
+.start p {
+    margin-bottom: 2em;
+    color: #ecfa00;
+}
+
+.btnStart {
+    color: #D6BD98;
+    border-color: #D6BD98;
+    background-color: #40534C;
+}
+
+.btnStart:hover {
+    background-color: #677D6A;
+}

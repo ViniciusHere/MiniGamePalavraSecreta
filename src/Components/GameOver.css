@@ -1,0 +1,28 @@
+.gameOver {
+    height: 100vh;
+    width: 100%;
+    background-color: #1A3636;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameOver h1, h2 {
+    color: #D6BD98;
+}
+
+.playAgain {
+    color: #D6BD98;
+    background-color: #40534C;
+    border-color: #D6BD98;
+}
+
+.playAgain:hover {
+    background-color: #677D6A;
+}
+
+h2 span {
+    color: #ecfa00;
+    font-size: 1.5em;
+}
