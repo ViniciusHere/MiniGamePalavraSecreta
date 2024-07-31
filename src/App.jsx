@@ -36,7 +36,7 @@ function App() {
     const category = categories[Math.floor(Math.random() * Object.keys(categories).length)]
     
     const word = words[category][Math.floor(Math.random() * words[category].length)]
-    console.log(word);
+    
     
     return {word, category}
   }, [words])
@@ -51,12 +51,11 @@ function App() {
 
     wordLetters = wordLetters.map(l => l.toLowerCase())
 
-    console.log(wordLetters);
+    
 
     setPickedWord(word)
     setPickCategory(category)
     setLetters(wordLetters)
-    console.log(category);
     setGameStage(stages[1].name)
   }, [pickWordAndCategory])
 
